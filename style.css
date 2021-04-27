@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  header */
+header{
+    height: 100px;
+    background-color: #ead8bd;
+    width: auto;
+}
+header .header-info-company{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header .header-social-company{}
+
+.header-info-company .header-company-logo{}
+.header-info-company img{
+    height: 100px;
+    width: 150px;
+}
+.header-info-company .header-info-text{}
+.header-info-text h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 700px;
+    margin: 27px;
+    color: #f0fdffd9;
+    text-decoration: none;
+}
+.header-social-company ul{
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+.header-social-company li{
+    padding: 11px;
+}
+.header-social-company a{}
+.header-social-company img{
+    width: 40px;
+    height: 40px;
+}
+/* end header */
+/* nav */
+nav{
+    height: 100px;
+}
+.nav-list{
+    margin: 10px;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+}
+.nav-list li{
+    padding: 10px;
+    border-bottom: none;
+    position: relative;
+}
+.nav-list h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.nav-list a{
+    display: flex;
+}
+ .nav-list li.list-category{}
+li.list-category ul.list-pet{
+    display: block;
+    border: solid 1px #eee;
+}
+ul.list-pet  a {}
+ul.list-pet > li {}
+ul.list-pet  ul {
+    top: 0;
+    left: 100%;
+    width: 100%;
+}
+ul.list-pet li.list-boss {}
+ul.list-pet  h3 {}
+li.list-boss ul.list-product{
+
+position: absolute;
+}
+
+li.list-category:hover ul.list-pet {
+ display: block !important;
+}
+li.list-boss:hover ul.list-product{
+    display: block;
+}
+
+/* end nav */
+
+/* main */
+main{}
+/* header-main  */
+main .main-header{
+    display: block;
+}
+.main-header img{
+    
+height: 400px;
+    
+width: 800px;
+}
+/* end header-main */
